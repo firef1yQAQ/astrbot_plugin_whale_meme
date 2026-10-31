@@ -1,0 +1,9 @@
+name: astrbot_plugin_whale_meme
+display_name: 表情包配图
+desc: 把 &&分类&& 标记换成真实表情包，并按上下文概率自动配图；自动限制 🐟 刷屏。
+short_desc: 把 &&分类&& 标记换成真实表情包，并按上下文概率自动配图
+help: 配合 meme_manager 的多套表情包使用，按语境挑图。
+version: 0.3.0
+author: dsh
+repo: ""
+astrbot_version: ">=4.0.0"
