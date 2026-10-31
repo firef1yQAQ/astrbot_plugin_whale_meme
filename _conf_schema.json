@@ -1,0 +1,27 @@
+{
+  "enable": {
+    "type": "bool",
+    "description": "启用配图",
+    "default": true
+  },
+  "pack_dir": {
+    "type": "string",
+    "description": "表情包根目录（留空用 meme_manager 默认目录）",
+    "default": ""
+  },
+  "max_per_reply": {
+    "type": "int",
+    "description": "每条回复最多配几张",
+    "default": 1
+  },
+  "auto_probability": {
+    "type": "float",
+    "description": "自动配图概率（0~1）",
+    "default": 0.2
+  },
+  "fish_emoji_probability": {
+    "type": "float",
+    "description": "保留 🐟 的概率（0~1）",
+    "default": 0.02
+  }
+}
